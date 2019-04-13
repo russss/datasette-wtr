@@ -1,27 +1,27 @@
 workflow "New workflow" {
   on = "push"
-  resolves = ["Tag"]
+  resolves = ["Push"]
 }
 
 action "Build" {
   uses = "actions/docker/cli@master"
-  args = "build ."
+  args = "build -t russss/wtr-api:latest ."
+}
+
+action "Deploy filter" {
+  needs = ["Build"]
+  uses = "actions/bin/filter@master"
+  args = "branch master"
 }
 
 action "Login" {
   uses = "actions/docker/login@master"
-  needs = ["Build"]
+  needs = ["Deploy filter"]
   secrets = ["DOCKER_USERNAME", "DOCKER_PASSWORD"]
 }
 
-action "Tag" {
-  uses = "actions/docker/tag@8cdf801b322af5f369e00d85e9cf3a7122f49108"
-  needs = ["Login"]
-  args = "russss/wtr-api:latest"
-}
-
 action "Push" {
-  needs = ["Tag"]
+  needs = ["Deploy filter", "Login"]
   uses = "actions/docker/cli@master"
   args = "push russss/wtr-api:latest"
 }
