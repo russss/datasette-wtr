@@ -1,0 +1,11 @@
+{% extends "./row.html" %}
+{% block content %}
+{{ super() }}
+{% if rows[0]['Geometry'] %}
+<div id="map"></div>
+    <script>
+        insertMap('select license_frequency.id AS pk, license, frequency, AsGeoJSON(Geometry) AS geometry ' +
+                  'from license_frequency where id = :pk');
+</script>
+{% endif %}
+{% endblock %}

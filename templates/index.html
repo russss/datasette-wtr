@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Wireless Telegraphy Register</h1>
+<p>This site provides a browsable interface to the UK's register of business radio licenses.</p>
+
+<h2>Search</h2>
+<p>Search for a licensee:</p>
+<form action="{{databases[0].path}}/licensee">
+    <input type="text" name="_search" placeholder="e.g. Telefonica">
+    <button>Search</button>
+</form>
+
+<h2>Browse</h2>
+<p>Browse the data by:</p>
+<ul>
+    <li><a href="{{databases[0].path}}/licensee">Licensee</a></li>
+    <li><a href="{{databases[0].path}}/product">Product</a></li>
+    <li><a href="{{databases[0].path}}/license">License</a></li>
+    <li><a href="{{databases[0].path}}/license_frequency">Licensed Frequency</a></li>
+</ul>
+{% endblock %}

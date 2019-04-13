@@ -1,0 +1,18 @@
+{% extends "default:row.html" %}
+{% block extra_head %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css" integrity="sha384-lPzjPsFQL6te2x+VxmV6q1DpRxpRk0tmnl2cpwAO5y04ESyc752tnEWPKDfl1olr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css" integrity="sha384-5kMSQJ6S4Qj5i09mtMNrWpSi8iXw230pKU76xTmrpezGnNJQzj0NzXjQLLg+jE7k" crossorigin="anonymous">
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster-src.js" integrity="sha384-aPW7+bcmswg0D7N22za0Cj4RDQtJjUVz9obDfEeT0q8ekjOqn32IJt8Hmxqjl6jV" crossorigin="anonymous"></script>
+    <script src="/static/leaflet.rotatedMarker.js"></script>
+    <script src="/static/map.js"></script>
+    <script>var database_hash = "{{database_hash}}";</script>
+<style>
+#map {
+  margin-top: 1em;
+  width: 100%;
+  height: 700px;
+}
+</style>
+{% endblock %}

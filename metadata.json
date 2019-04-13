@@ -1,0 +1,341 @@
+{
+    "title": "Wireless Telegraphy Register",
+    "description": null,
+    "description_html": null,
+    "license": "OGL",
+    "license_url": "https://data.gov.uk/terms-and-conditions",
+    "source": "Ofcom",
+    "source_url": "https://www.ofcom.org.uk/research-and-data/data/opendata",
+    "custom_units": [
+        "decibel = [] = dB"
+    ],
+    "databases": {
+        "wtr": {
+            "title": null,
+            "description": null,
+            "description_html": null,
+            "license": null,
+            "license_url": null,
+            "source": null,
+            "source_url": null,
+            "queries": {},
+            "tables": {
+                "spatial_ref_sys": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "spatialite_history": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "sqlite_sequence": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "geometry_columns": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "spatial_ref_sys_aux": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "views_geometry_columns": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "virts_geometry_columns": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "geometry_columns_statistics": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "views_geometry_columns_statistics": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "virts_geometry_columns_statistics": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "geometry_columns_field_infos": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "views_geometry_columns_field_infos": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "virts_geometry_columns_field_infos": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "geometry_columns_time": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "geometry_columns_auth": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "views_geometry_columns_auth": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "virts_geometry_columns_auth": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "sql_statements_log": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "SpatialIndex": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "ElementaryGeometries": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "licensee": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "product": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null,
+                    "units": {
+                        "frequency": "Hz",
+                        "channel_width": "Hz",
+                        "height": "m",
+                        "antenna_height": "m",
+                        "azimuth": "degrees",
+                        "gain": "dB",
+                        "feed_loss": "dB"
+                    }
+                },
+                "licensee_fts": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "licensee_fts_segments": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "licensee_fts_segdir": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "licensee_fts_docsize": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "licensee_fts_stat": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency_fts": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency_fts_segments": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency_fts_segdir": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency_fts_docsize": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                },
+                "license_frequency_fts_stat": {
+                    "title": null,
+                    "description": null,
+                    "description_html": null,
+                    "license": null,
+                    "license_url": null,
+                    "source": null,
+                    "source_url": null
+                }
+            }
+        }
+    }
+}

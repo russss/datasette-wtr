@@ -1,0 +1,11 @@
+{% extends "./row.html" %}
+{% block content %}
+    {{ super() }}
+<div id="map"></div>
+<script>
+    insertMap("select license_frequency.id AS pk, license.id AS license, license_frequency.frequency, AsGeoJSON(Geometry) AS geometry, azimuth, tx_rx " +
+              "from license_frequency, license where license_frequency.license = license.id and " +
+              "license_frequency.id > :from_id AND geometry is not null and licensee = :pk ORDER BY license_frequency.id ASC");
+
+</script>
+{% endblock %}
